@@ -1,0 +1,10 @@
+# ignorar arquivos brutos com credenciais e chaves
+*.ovpn
+*.txt
+
+# ignorar logs temporários
+*.log
+
+# PERMITIR que o repositório veja apenas o zip criptografado e scripts de controle
+!conteudo.zip
+!*.sh
